@@ -1,3 +1,40 @@
 body {
-  background-color: #8cffa414;
+  height: 100%;
+  background: url(../images/background.svg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+.primary_indicator {
+  color: #1eaedb;
+}
+
+.primary-title {
+  font-weight: bold;
+  color: black;
+}
+
+.primary_link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+  padding-bottom: 2px;
+  border-bottom: 2px solid #1eaedb;
+}
+
+.primary_link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a, a:hover {
+  text-decoration: none
 }

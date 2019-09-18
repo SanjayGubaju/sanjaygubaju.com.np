@@ -1,0 +1,13 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <g id="Rectangle_1" data-name="Rectangle 1" fill="#fff" stroke="rgba(0,0,0,0.2)" stroke-width="1">
+    <rect width="1920" height="1080" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="1079" fill="none"/>
+  </g>
+  <g id="Group_5" data-name="Group 5">
+    <path id="Polygon_1" data-name="Polygon 1" d="M308.5,0,617,534H0Z" transform="matrix(0.695, 0.719, -0.719, 0.695, 1461.796, 226.771)" fill="rgba(244,244,244,0.8)"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M173,0,346,299H0Z" transform="translate(14.432 987.916) rotate(-75)" fill="rgba(244,244,244,0.8)"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M106,0,212,184H0Z" transform="translate(1717.629 85.413) rotate(96)" fill="rgba(244,244,244,0.8)"/>
+    <path id="Polygon_5" data-name="Polygon 5" d="M52,0l52,90H0Z" transform="translate(830.622 636.676) rotate(15)" fill="rgba(244,244,244,0.8)"/>
+    <path id="Polygon_4" data-name="Polygon 4" d="M83.5,0,167,145H0Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 125.927, 43.937)" fill="rgba(244,244,244,0.8)"/>
+  </g>
+</svg>

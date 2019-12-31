@@ -14,9 +14,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+  <!-- External
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,27 +35,60 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="seven columns" style="margin-top: 25%">
-        <h5>Sanjay Gubaju</h5>
+  <section class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="seven columns" style="margin-top: 25%">
+          <h5>Sanjay Gubaju</h5>
 
-        <h1 class="primary-title">I'm a freelance digital product developer<span class="primary_indicator">.</span></h1>
-        <p>I create mobile and web apps for businesses big and small. I'm currently
-          available for <a href="mailto:anka.shala@gmail.com" class="primary_link">new projects</a>.</p>
+          <h1 class="primary-title">I'm a freelance digital product developer<span class="primary_indicator">.</span>
+          </h1>
+          <p>I create mobile and web apps for businesses big and small. I'm currently
+            available for <a href="mailto:anka.shala@gmail.com" class="primary_link">new projects</a>.</p>
 
-        <p>
-          <a href="https://github.com/sanjaygubaju">Github</a> |
-          <a href="http://instagram.com/sanjay_gubaju">Instagram</a> |
-          <a href="http://dribbble.com/sanjay_gubaju">Dribbble</a>
-        </p>
+          <p>
+            <a href="https://github.com/sanjaygubaju">Github</a> |
+            <a href="http://instagram.com/sanjay_gubaju">Instagram</a> |
+            <a href="http://dribbble.com/sanjay_gubaju">Dribbble</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <section class="projects">
+    <div class="main-carousel" data-flickity='{ "wrapAround": true }'>
+      <div class="carousel-cell">
+        <div class="inner-carousel">
+          <img src="./images/projects/lagani.png"></img>
+          <p>Stock and portfolio management app for Nepal.</p>
+          <a class="button" href="https://play.google.com/store/apps/details?id=com.ankashala.lagani&ref=sanjaygubaju">
+            <img src="https://img.icons8.com/material-sharp/100/000000/google-play.png" />
+            <span>Play Store</span>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div class="inner-carousel">
+          <img src="./images/projects/captionist.png"></img>
+          <p>Caption for fb & insta photos</p>
+          <a class="button"
+            href="https://play.google.com/store/apps/details?id=com.ankashala.captionist&ref=sanjaygubaju">
+            <img src="https://img.icons8.com/material-sharp/100/000000/google-play.png" />
+            <span>Play Store</span>
+          </a>
+        </div>
+      </div>
+      <!-- <div class="carousel-cell"></div> -->
+    </div>
+  </section>
+
 
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 </body>
 
 </html>

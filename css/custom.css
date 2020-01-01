@@ -80,7 +80,6 @@ section {
 .carousel-cell {
   margin-top: 3vh;
   height: calc(100vh - 50px - 3vh);
-  width: 100vw;
 }
 
 .carousel-cell > .inner-carousel > img {
